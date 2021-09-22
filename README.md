@@ -2,18 +2,18 @@
 Use Clean architecture.
 
 
-#### MusalaSoft.GatewayManagement.Api
+#### CompanyName.GatewayManagement.Api
 .Net Core Web Application which contails the api. This is the Outer layer. 
     Dependant projects
-    - MusalaSoft.GatewayManagement.Data
-#### MusalaSoft.GatewayManagement.Domain
+    - CompanyName.GatewayManagement.Data
+#### CompanyName.GatewayManagement.Domain
  .Net Core Class Library project contains the domain services. It is domain layer. This layer has all business login and use repository to persisnt data using data layer.This project used AutoMapper library to mapped one object to another.
  Dependant projects    
-    - MusalaSoft.GatewayManagement.Data
-#### MusalaSoft.GatewayManagement.Data
+    - CompanyName.GatewayManagement.Data
+#### CompanyName.GatewayManagement.Data
  .Net Core Class Library project contains the data repository and entity.This project uses Entity Framework core as an ORM.
 
-#### MusalaSoft.GatewayManagement.Domain.Test
+#### CompanyName.GatewayManagement.Domain.Test
  .Net Core Class Library project contains all unit test for domain layer.This project uses Microsoft.NET.Test.Sdk, xunit for unit test and Moq for mocking the object.
 
 ### Clean Architecture
