@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name:  .NET 5
+name: .NET 5
 
 # Controls when the workflow will run
 on:
@@ -35,6 +35,8 @@ jobs:
     - name: Build
       run: dotnet build CompanyName.GatewayManagement.sln --configuration Release --no-restore
   test:
+    name: Test
+    runs-on: ubuntu-latest
     steps:
       - name: run GatewayManagement.Domain.Tests
         run: dotnet test --no-restore .\tests\CompanyName.GatewayManagement.Domain.Tests\CompanyName.GatewayManagement.Domain.Tests
