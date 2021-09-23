@@ -4,13 +4,12 @@ using CompanyName.GatewayManagement.Domain.DTO;
 
 namespace CompanyName.GatewayManagement.Domain.AutoMapperProfiles
 {
-    public class GatewayProfile : Profile
+    public class DeviceProfile : Profile
     {
-        public GatewayProfile()
+        public DeviceProfile()
         {
-            CreateMap<Gateway, GatewayDetailsDto>();
-            CreateMap<GatewayRequestDto, Gateway>();
+            CreateMap<PeripheralDevice, DeviceResponseDto>();
+            CreateMap<DeviceRequestDto, PeripheralDevice>();
         }
-
     }
 }
