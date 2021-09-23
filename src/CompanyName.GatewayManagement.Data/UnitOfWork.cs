@@ -1,4 +1,4 @@
-using CompanyName.GatewayManagement.Data.Entities;
+﻿using CompanyName.GatewayManagement.Data.Entities;
 using System.Threading.Tasks;
 
 namespace CompanyName.GatewayManagement.Data
