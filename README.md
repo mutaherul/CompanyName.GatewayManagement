@@ -51,11 +51,11 @@ There is powershell script at scripts\Setup to install the framework.
 #### Building 
 There is a batch file build.bat for bulding and running unit tests of the solution
 ```sh
-dotnet build MusalaSoft.GatewayManagement.sln
+dotnet build CompanyName.GatewayManagement.sln
 ```
 ### Running Tests
 ```sh
-dotnet test --no-restore .\tests\MusalaSoft.GatewayManagement.Domain.Tests\MusalaSoft.GatewayManagement.Domain.Tests.csproj
+dotnet test --no-restore .\tests\CompanyName.GatewayManagement.Domain.Tests\CompanyName.GatewayManagement.Domain.Tests.csproj
 ```
 
 
@@ -72,7 +72,7 @@ dotnet test --no-restore .\tests\MusalaSoft.GatewayManagement.Domain.Tests\Musal
 
 
 ##### Configuration
-Project configurations are kept in appsettings.dev file on MusalaSoft.GatewayManagement.Api project.
+Project configurations are kept in appsettings.dev file on CompanyName.GatewayManagement.Api project.
 
 
 ## Api Documentation
