@@ -36,7 +36,7 @@ jobs:
       run: dotnet build CompanyName.GatewayManagement.sln --configuration Release --no-restore
   test:
     steps:
-      - name: run tests
-        run: dotnet test --no-restore .\tests\MusalaSoft.GatewayManagement.Domain.Tests\MusalaSoft.GatewayManagement.Domain.Tests.csproj
-    name: Test
-    runs-on: ubuntu-latest
+      - name: run GatewayManagement.Domain.Tests
+        run: dotnet test --no-restore .\tests\CompanyName.GatewayManagement.Domain.Tests\CompanyName.GatewayManagement.Domain.Tests
+  
+    
