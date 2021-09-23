@@ -44,7 +44,7 @@ Source code dependencies can only point inwards. Nothing in an inner circle can 
 
 
 ## Installation
-This project based on NET Core 3.1 SDK
+This project based on NET 5 SDK
 There is powershell script at scripts\Setup to install the framework.
 
 
