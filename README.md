@@ -12,6 +12,7 @@ Each gateway has:
 - human-readable name (string),
 - IPv4 address (to be validated),
 - multiple associated peripheral devices.
+ 
 Each peripheral device has:
 - a UID (number),
 - vendor (string),
