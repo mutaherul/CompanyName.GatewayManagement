@@ -39,5 +39,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run GatewayManagement.Domain.Tests
-        run: dotnet test --no-restore tests/CompanyName.GatewayManagement.Domain.Tests/CompanyName.GatewayManagement.Domain.Tests
+        run: dotnet test --no-restore tests/CompanyName.GatewayManagement.Domain.Tests
         
