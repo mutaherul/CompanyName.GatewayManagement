@@ -1,7 +1,7 @@
 ## Project Description
 ### .NET CORE REST API SAMPLE PROJECT
 This project is managing gateways - master devices that control multiple peripheral devices.
-Your task is to create a REST service (JSON/HTTP) for storing information about these gateways and
+This is a REST service (JSON/HTTP) for storing information about these gateways and
 their associated devices. This information must be stored in the database.
 When storing a gateway, any field marked as “to be validated” must be validated and an error returned if it
 is invalid. Also, no more that 10 peripheral devices are allowed for a gateway.
