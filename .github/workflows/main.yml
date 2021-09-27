@@ -37,9 +37,9 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-    - apt-get update
-    - apt-get install --yes --allow-unauthenticated libc6-dev libgdiplus libx11-dev
-    - dotnet restore
+      run: apt-get update
+      run: apt-get install --yes --allow-unauthenticated libc6-dev libgdiplus libx11-dev
+      run: dotnet restore
     - name: run GatewayManagement.Domain.Tests
       run: dotnet test .\tests\CompanyName.GatewayManagement.Domain.Tests\CompanyName.GatewayManagement.Domain.Tests.csproj
         
