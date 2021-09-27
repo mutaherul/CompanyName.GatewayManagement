@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
-    name: Build
+    name: Build & Test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -34,11 +34,6 @@ jobs:
     - name: Build
       run: dotnet build CompanyName.GatewayManagement.sln --configuration Release --no-restore
     
-    - name: run GatewayManagement.Domain.Tests
+    - name: Runing Unit Tests
       run: dotnet test CompanyName.GatewayManagement.sln
-  test:
-    name: Unit Test
-    runs-on: ubuntu-latest
-    steps:
-    - name: run GatewayManagement.Domain.Tests
-      run: dotnet test .\tests\CompanyName.GatewayManagement.Domain.Tests\CompanyName.GatewayManagement.Domain.Tests.csproj
+
