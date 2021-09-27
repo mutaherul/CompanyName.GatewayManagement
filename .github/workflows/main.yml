@@ -38,6 +38,6 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - name: run GatewayManagement.Domain.Tests
+    - name: run GatewayManagement.Domain.Tests
       run: dotnet test CompanyName.GatewayManagement.sln --configuration Release
         
