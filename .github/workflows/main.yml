@@ -33,6 +33,10 @@ jobs:
 
     - name: Build
       run: dotnet build CompanyName.GatewayManagement.sln --configuration Release --no-restore
+    
+    - name: run GatewayManagement.Domain.Tests
+      run: dotnet test tests\CompanyName.GatewayManagement.Domain.Tests\CompanyName.GatewayManagement.Domain.Tests.csproj
+
   test:
     name: Unit Test
     runs-on: ubuntu-latest

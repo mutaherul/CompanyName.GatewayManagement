@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CompanyName.GatewayManagement.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CompanyName.GatewayManagement.Api.Controllers.DeviceController.GetDevices(System.Int64)">
+            <summary>
+            Get all devices of a gateway
+            </summary>
+        </member>
+        <member name="M:CompanyName.GatewayManagement.Api.Controllers.DeviceController.AddDevice(System.Int64,CompanyName.GatewayManagement.Domain.DTO.DeviceRequestDto)">
+            <summary>
+            Add new device under a gateway
+            </summary>
+        </member>
+        <member name="M:CompanyName.GatewayManagement.Api.Controllers.DeviceController.GetDevice(System.Int64,System.Int64)">
+            <summary>
+            Get a specific device according to it's UId
+            </summary>
+        </member>
+        <member name="M:CompanyName.GatewayManagement.Api.Controllers.DeviceController.RemoveDevice(System.Int64,System.Int64)">
+            <summary>
+            Delete a specific device according to it's UId
+            </summary>
+        </member>
+        <member name="M:CompanyName.GatewayManagement.Api.Controllers.GatewayController.GetAllGateways">
+            <summary>
+            Get All Gateways with it's associated devices
+            </summary>
+        </member>
+        <member name="M:CompanyName.GatewayManagement.Api.Controllers.GatewayController.GetAllGateways(System.Int64)">
+            <summary>
+            Get a specific Gateway according to it's id
+            </summary>
+        </member>
+        <member name="M:CompanyName.GatewayManagement.Api.Controllers.GatewayController.AddGateway(CompanyName.GatewayManagement.Domain.DTO.GatewayRequestDto)">
+            <summary>
+            Add new Gateway
+            </summary>
+        </member>
+    </members>
+</doc>
