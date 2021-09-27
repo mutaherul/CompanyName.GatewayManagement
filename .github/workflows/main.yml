@@ -35,5 +35,5 @@ jobs:
       run: dotnet build CompanyName.GatewayManagement.sln --configuration Release --no-restore
     
     - name: Runing Unit Tests
-      run: dotnet test CompanyName.GatewayManagement.sln
+      run: dotnet test CompanyName.GatewayManagement.sln --configuration Release --no-restore
 
