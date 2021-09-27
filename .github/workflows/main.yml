@@ -20,7 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
     - name: Setup .NET SDK 5.0
       uses: actions/setup-dotnet@v1
       with:
@@ -38,6 +37,9 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
+    - apt-get update
+    - apt-get install --yes --allow-unauthenticated libc6-dev libgdiplus libx11-dev
+    - dotnet restore
     - name: run GatewayManagement.Domain.Tests
       run: dotnet test .\tests\CompanyName.GatewayManagement.Domain.Tests\CompanyName.GatewayManagement.Domain.Tests.csproj
         
