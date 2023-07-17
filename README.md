@@ -1,4 +1,5 @@
-## Project Description
+# Job Interview Assignments
+## Project Description 
 ### .NET CORE REST API SAMPLE PROJECT
 This project is managing gateways - master devices that control multiple peripheral devices.
 This is a REST service (JSON/HTTP) for storing information about these gateways and
@@ -46,11 +47,11 @@ Source code dependencies can only point inwards. Nothing in an inner circle can 
 
 ## Installation
 This project based on NET 5 SDK
-There is powershell script at scripts\Setup to install the framework.
+There is PowerShell script at scripts\Setup to install the framework.
 
 
 #### Building 
-There is a batch file build.bat for bulding and running unit tests of the solution
+There is a batch file build.bat for building and running unit tests of the solution
 ```sh
 dotnet build CompanyName.GatewayManagement.sln
 ```
@@ -67,8 +68,8 @@ dotnet test --no-restore .\tests\CompanyName.GatewayManagement.Domain.Tests\Comp
 
 - Note: database username and password is found in DatabaseConnection  on appsettings.dev.
  
- There are two script on \scripts\Database folder. 
- - Schema.sql: To create database schema ( db user and tables, constrains)
+ There are two scripts on \scripts\Database folder. 
+ - Schema.sql: To create database schema ( db user and tables, constraints)
  - sample_data.sql: To populate some sample data
 
 
