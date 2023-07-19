@@ -1,5 +1,5 @@
 ## Project Description
-### .NET 5 REST API SAMPLE PROJECT
+### .NET 6 REST API SAMPLE PROJECT
 This project is managing gateways - master devices that control multiple peripheral devices.
 Your task is to create a REST service (JSON/HTTP) for storing information about these gateways and
 their associated devices. This information must be stored in the database.
