@@ -4,7 +4,6 @@
 # Job Interview Assignments
 ## Project Description 
 ### .NET CORE REST API SAMPLE PROJECT
->>>>>>> 4315b47787ed7035cc77d05de2f4c658b9495167
 This project is managing gateways - master devices that control multiple peripheral devices.
 This is a REST service (JSON/HTTP) for storing information about these gateways and
 their associated devices. This information must be stored in the database.
@@ -50,7 +49,7 @@ Source code dependencies can only point inwards. Nothing in an inner circle can 
 
 
 ## Installation
-This project based on NET 5 SDK
+This project based on NET 6 SDK
 There is PowerShell script at scripts\Setup to install the framework.
 
 
